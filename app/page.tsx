@@ -6,14 +6,15 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex h-screen max-h-screen">
+      {/*Todo: OTP verification | PasskeyModal */}
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image
-            src="/assets/icons/logo.png"
+            src="/assets/icons/logo-medease.png"
             height={500}
             width={500}
             alt="logo"
-            className="mv-12 h-10 w-fit"
+            className="mb-12 h-10 w-fit"
           />
 
           <PatientForm />
